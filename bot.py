@@ -19,4 +19,7 @@ async def say_hello(ctx):
 
 bot.run(TOKEN)
 
-
+@bot.command(name="RPSLS", help="rock paper sciccors more advanced")
+async def rspls(ctx):
+    await  ctx.send(random.choices(["Rock", "Paper", "Scissors", "Lizard", "Spock"]))
+    
