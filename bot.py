@@ -23,3 +23,10 @@ bot.run(TOKEN)
 async def rspls(ctx):
     await  ctx.send(random.choices(["✊", "✋", "✌️", "🦎", "🖖"]))
     
+@bot.command(name="players", help="2-8 players per game")
+async def players(ctx):
+    await ctx.send(range(1, 8))
+
+@bot.command(name="win", help="the winning person will be annouced")
+async def win(ctx):
+    await ctx.send(random.choice[✊ < ✋ < ✌️ < 🦎 < 🖖])
