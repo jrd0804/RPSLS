@@ -6,4 +6,4 @@
  (bts means beats)
  Rock bts sciccors bts paper bts rock bts lizard bts spock bts sciccors bts lizard bts paper bts spock bts rock.
  But as the game is going on emojis have to be used for the characters
- The code should only allow about 10 -12 people per game. 
+ The code should only allow about 2 -8 people per game. 
